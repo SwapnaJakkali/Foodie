@@ -30,6 +30,7 @@
 .menu-parent{
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 #menu-toggle{
@@ -591,9 +592,27 @@ padding-top:10px;
         /* padding-left: 8%; */
         padding: 2%;
     }
+    .menu-parent{
+        padding: 0%;
+    }
     .menu-items{
         display: none;
         flex-direction: column;
+        position: absolute;
+        right: 218px;
+        top: 0;
+        margin: 0;
+        padding: 15px;
+        border: 2px solid black;
+        border-radius: 5%;
+        background-color: #000;
+        gap:22px;
+    }
+    .menu-items a{
+        font-size: 1em;
+        padding: 0;
+        margin: 0;
+        line-height: 0.5;
     }
     .menu-icon{
         display: block;
