@@ -622,7 +622,7 @@ padding-top:10px;
     }
     .menu-icon{
         display: block;
-        padding-right: 25px;
+        padding-right: 20px;
         padding-top: 5px;
     }
     #menu-toggle:checked ~ .menu-items{
@@ -680,7 +680,7 @@ padding-top:10px;
         padding-left: 6%;
     }
     .mem-card1{
-        padding: 0% 0% 20% 5%;
+        padding: 0% 0% 20% 2.5%;
     }
     .mem-text{
         padding: 0%;
