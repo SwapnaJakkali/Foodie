@@ -186,8 +186,8 @@ padding-top:10px;
     text-align: center;
 }
 .card-1{
-    animation: card1Animation 2s ease-in-out 1;
-    animation-delay: 1s;
+    animation: card1Animation 1s ease-in-out 1;
+    animation-delay: 2s;
 }
 @keyframes card1Animation {
 
@@ -205,8 +205,8 @@ padding-top:10px;
 .card-2{
     /* animation: card2Animation 2s ease-in-out 0 1 ; */
     animation-name: card2Animation;
-    animation-duration: 2s;
-    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-delay: 2s;
 }
 @keyframes card2Animation {
     0%{
@@ -221,8 +221,8 @@ padding-top:10px;
     }
 }
 .card-3{
-    animation: card3Animation 2s ease-in-out  ;
-    animation-delay: 1s;
+    animation: card3Animation 1s ease-in-out  ;
+    animation-delay: 2s;
 }
 @keyframes card3Animation {
     0%{
@@ -249,8 +249,8 @@ padding-top:10px;
 }
 .big-card-1{
     animation-name: bigcard1;
-    animation-duration: 2s;
-    animation-delay:2s;
+    animation-duration: 1.5s;
+    animation-delay:3s;
 }
 
 .big-card-text{
@@ -268,7 +268,8 @@ padding-top:10px;
     flex-wrap: wrap;
 }
 .big-card-2{
-    animation: bigcard2 2s ease-in 2s ;
+    animation: bigcard2 1.5s ease-in 3s ;
+
 }
 @keyframes bigcard2 {
     from{
@@ -372,7 +373,7 @@ padding-top:10px;
     padding-top: 20px;
     animation: partsCard;
     animation-duration: 2s;
-    animation-delay: 7s;
+    animation-delay: 5s;
 }
 @keyframes partsCard {
     from{
@@ -465,7 +466,7 @@ padding-top:10px;
     align-items: center;
     animation-name: detailsAnimation;
     animation-duration: 2s;
-    animation-delay: 0s;
+    animation-delay: 6s;
 }
 @keyframes detailsAnimation {
     from{
@@ -532,7 +533,7 @@ padding-top:10px;
     font-family: "IBM Plex Serif", serif;
     animation-name: contact;
     animation-duration: 3s;
-    animation-delay: 0s;
+    animation-delay: 7s;
 }
 
 .contact-info h2 {
@@ -554,7 +555,7 @@ padding-top:10px;
     overflow: hidden;
     animation-name: map;
     animation-duration: 3s;
-    animation-delay: 0s;
+    animation-delay: 7s;
 }
 
 .map-image img{
@@ -677,7 +678,7 @@ padding-top:10px;
         padding-left: 6%;
     }
     .mem-card1{
-        padding: 0% 0% 25% 0%;
+        padding: 0% 0% 35% 0%;
     }
     .mem-text{
         padding: 0%;
@@ -729,6 +730,7 @@ padding-top:10px;
         width: 100%;
         padding-left: 5%;
         padding-right: 5%;
+        padding-bottom: 30px;
     }
     .map-image{
         width: 100%;
