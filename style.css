@@ -602,7 +602,7 @@ padding-top:10px;
         display: none;
         flex-direction: column;
         position: absolute;
-        right: 226px;
+        right: 230px;
         top: 0;
         margin: 0;
         padding: 16px;
@@ -622,6 +622,8 @@ padding-top:10px;
     }
     .menu-icon{
         display: block;
+        padding-right: 25px;
+        padding-top: 5px;
     }
     #menu-toggle:checked ~ .menu-items{
         display: flex;
@@ -678,7 +680,7 @@ padding-top:10px;
         padding-left: 6%;
     }
     .mem-card1{
-        padding: 0% 0% 35% 0%;
+        padding: 0% 0% 40% 0%;
     }
     .mem-text{
         padding: 0%;
