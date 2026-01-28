@@ -607,6 +607,9 @@ padding-top:10px;
         border-radius: 5%;
         background-color: #000;
         gap:22px;
+        animation-name: menubar;
+        animation-duration: 0.8s;
+        animation-delay: 0s;
     }
     .menu-items a{
         font-size: 1em;
@@ -733,4 +736,11 @@ padding-top:10px;
         gap: 10px;
     }
 
+}
+@keyframes menubar {
+    from{
+        transform: translate(-500px);
+    }to{
+        transform: translate(0px);
+    }
 }
