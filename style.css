@@ -27,13 +27,24 @@
     font-size: 2rem;
     margin: 2%;
 }
+.menu-parent{
+    display: flex;
+    align-items: center;
+}
+
+#menu-toggle{
+    display: none;
+}
 
 .menu-items {
     display: flex;
     gap: 30px;
     padding: 30px;
 }
-
+.menu-icon{
+    display:none;
+    cursor: pointer;
+}
 .menu-items a {
     color: white;
     font-size: 20px;
@@ -582,9 +593,13 @@ padding-top:10px;
     }
     .menu-items{
         display: none;
+        flex-direction: column;
     }
     .menu-icon{
         display: block;
+    }
+    #menu-toggle:checked ~ .menu-items{
+        display: flex;
     }
     .big-card-text{
         font-size: 2em;
