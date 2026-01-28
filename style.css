@@ -430,6 +430,13 @@ padding-top:10px;
     align-items: center;
     padding: 80px ;
 }
+.book-btn a , .btn a{
+    text-decoration: none;
+    color: #000;
+}
+.book-btn:hover , .btn:hover{
+    cursor: pointer;
+}
 .details-card {
     background: white;
     width: 80%;
@@ -561,6 +568,12 @@ padding-top:10px;
     background-color: gray;
     padding: 30px;
 }
+@media (min-width:481px) {
+    .menu-icon{
+        display: none;
+    }
+    
+}
 @media (max-width:480px){
     .title{
         /* margin-left: 2%; */
@@ -569,6 +582,9 @@ padding-top:10px;
     }
     .menu-items{
         display: none;
+    }
+    .menu-icon{
+        display: block;
     }
     .big-card-text{
         font-size: 2em;
