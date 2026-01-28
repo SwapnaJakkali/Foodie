@@ -377,7 +377,7 @@ padding-top:10px;
 }
 .extra-img{
     width: 100%;
-    height: 500px;
+    height: 440px;
     background-image: url("https://img.freepik.com/premium-photo/healthy-lunch-food-double-side-border-table-scene-with-vegetable_886974-922.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -620,9 +620,20 @@ padding-top:10px;
     .big-card2 img {
         width: 100%;
         height: auto;
+        border-radius:0%;
     }
     .big-img{
         height:1100px;
+    }
+    .mem-card1 img{
+        padding-bottom: 2%;
+    }
+    .mem-card1{
+        padding: 0% 0% 20% 0%;
+    }
+    .mem-text{
+        padding: 0%;
+        margin: 0%;
     }
     .parts-title{
         text-align: center;
